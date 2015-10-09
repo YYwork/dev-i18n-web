@@ -1,5 +1,5 @@
 {
-  "lang": "ko",
+  "lang": "zh_TW",
   "langName": {
     "en": "English",
     "zh": "简体中文",
@@ -14,29 +14,29 @@
     "ko": "../korea/index.html",
     "tw": "../zh-tw/index.html"
   },
-  "keywords": "사용 swig 국제 웹사이트 개발",
-  "description": "사용 swig 국제 웹사이트 개발",
-  "title": "사용 swig 국제 웹사이트 개발",
+  "keywords": "使用 swig 模版開發國際性網站",
+  "description": "使用 swig 模版開發國際性網站",
+  "title": "使用 swig 模版開發國際性網站",
   "slogen": "",
-  "companyName": "XX 주식회사",
+  "companyName": "XX有限公司",
   "indexUrl": "./demo.html",
-  "navPackUp": "닫기",
+  "navPackUp": "關閉",
   "navs": {
-    "index": "집",
-    "company": "회사소개",
-    "culture": "문화",
-    "mall": "몰",
-    "news": "뉴스",
-    "forum": "포럼",
-    "contactus": "연락처"
+    "index": "首頁",
+    "company": "關於我們",
+    "culture": "企業文化",
+    "mall": "商城",
+    "forum": "論壇",
+    "news": "新聞",
+    "contactus": "聯繫我們"
   },
   "mall": {
     "tmall": {
-      "name": "데모1",
+      "name": "演示1",
       "url": "#"
     },
     "jd": {
-      "name": "데모2",
+      "name": "演示2",
       "url": "#"
     }
   },
@@ -48,8 +48,8 @@
     "forum": "#",
     "contactus": "#"
   },
-  "loading": "곧...",
-  "more": "더 &gt;&gt;",
+  "loading": "即將推出...",
+  "more": "更多 &gt;&gt;",
   "Copyright": "京ICP备xxxxxxx号",
-  "demo": "데모"
+  "demo": "演示"
 }

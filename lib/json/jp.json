@@ -4,13 +4,15 @@
     "en": "English",
     "zh": "简体中文",
     "jp": "日本語",
-    "ko": "한국어"
+    "ko": "한국어",
+    "tw": "繁體中文"
   },
   "langUrl": {
     "zh": "../zh-cn/index.html",
     "en": "../en-us/index.html",
     "jp": "../jp/index.html",
-    "ko": "../korea/index.html"
+    "ko": "../korea/index.html",
+    "tw": "../zh-tw/index.html"
   },
   "keywords": "使用 swig 国際ウェブサイトを開発するには",
   "description": "使用 swig 国際ウェブサイトを開発するには",
@@ -18,7 +20,7 @@
   "slogen": "",
   "companyName": "XX 株式会社",
   "indexUrl": "./demo.html",
-  "navPackUp": "Pack Up",
+  "navPackUp": "閉じる",
   "navs": {
     "index": "ホーム",
     "company": "私たちに関しては",

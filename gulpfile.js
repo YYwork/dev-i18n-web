@@ -25,7 +25,8 @@ var output = {
   en: path.join(outputDir, 'en-us'),
   cn: path.join(outputDir, 'zh-cn'),
   ko: path.join(outputDir, 'korea'),
-  jp: path.join(outputDir, 'jp')
+  jp: path.join(outputDir, 'jp'),
+  tw: path.join(outputDir, 'zh-tw')
 }
 
 var getJsonData = function(file) {
@@ -38,18 +39,21 @@ gulp.task('zhTmp', function() {
     .pipe(swig())
     .pipe(gulp.dest(output.cn));
 });
+
 gulp.task('enTmp', function() {
   return gulp.src(source.htmlFileDir)
     .pipe(data(getJsonData('en-us')))
     .pipe(swig())
     .pipe(gulp.dest(output.en));
 });
+
 gulp.task('koreaTmp', function() {
   return gulp.src(source.htmlFileDir)
     .pipe(data(getJsonData('korea')))
     .pipe(swig())
     .pipe(gulp.dest(output.ko));
 });
+
 gulp.task('jpTmp', function() {
   return gulp.src(source.htmlFileDir)
     .pipe(data(getJsonData('jp')))
@@ -57,6 +61,12 @@ gulp.task('jpTmp', function() {
     .pipe(gulp.dest(output.jp));
 });
 
+gulp.task('twTmp', function() {
+  return gulp.src(source.htmlFileDir)
+    .pipe(data(getJsonData('zh-tw')))
+    .pipe(swig())
+    .pipe(gulp.dest(output.tw));
+});
 // 编译 compass
 gulp.task('compass', function() {
   gulp.src(source.sassFileDir)
@@ -85,7 +95,8 @@ gulp.task('build', [
   'zhTmp',
   'enTmp',
   'koreaTmp',
-  'jpTmp'
+  'jpTmp',
+  'twTmp'
 ]);
 
 gulp.task('watch', [

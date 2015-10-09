@@ -19,4 +19,7 @@
   {% if lang == 'ko' %}
     {% include './ko/demo.tpl' %}
   {% endif %}
+  {% if lang == 'zh-TW' %}
+    {% include './tw/demo.tpl' %}
+  {% endif %}
 {% endblock %}

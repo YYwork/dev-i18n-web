@@ -4,13 +4,15 @@
     "en": "English",
     "zh": "简体中文",
     "jp": "日本語",
-    "ko": "한국어"
+    "ko": "한국어",
+    "tw": "繁體中文"
   },
   "langUrl": {
     "zh": "../zh-cn/index.html",
     "en": "../en-us/index.html",
     "jp": "../jp/index.html",
-    "ko": "../korea/index.html"
+    "ko": "../korea/index.html",
+    "tw": "../zh-tw/index.html"
   },
   "keywords": "使用 swig 模版开发国际性网站",
   "description": "使用 swig 模版开发国际性网站",
@@ -18,7 +20,7 @@
   "slogen": "",
   "companyName": "XX有限公司",
   "indexUrl": "./demo.html",
-  "navPackUp": "閉じる",
+  "navPackUp": "关闭",
   "navs": {
     "index": "首页",
     "company": "关于我们",

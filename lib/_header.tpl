@@ -20,6 +20,8 @@
       <a class="lang-jp-a" href="{{langUrl.jp}}">{{langName.jp}}</a>
       <span class="divider">|</span>
       <a class="lang-ko-a" href="{{langUrl.ko}}">{{langName.ko}}</a>
+      <span class="divider">|</span>
+      <a class="lang-ko-a" href="{{langUrl.tw}}">{{langName.tw}}</a>
     </div>
   </div>
 </header>
