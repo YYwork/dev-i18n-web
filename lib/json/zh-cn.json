@@ -1,0 +1,53 @@
+{
+  "lang": "zh_CN",
+  "langName": {
+    "en": "English",
+    "zh": "简体中文",
+    "jp": "日本語",
+    "ko": "한국어"
+  },
+  "langUrl": {
+    "zh": "../zh-cn/index.html",
+    "en": "../en-us/index.html",
+    "jp": "../jp/index.html",
+    "ko": "../korea/index.html"
+  },
+  "keywords": "使用 swig 模版开发国际性网站",
+  "description": "使用 swig 模版开发国际性网站",
+  "title": "使用 swig 模版开发国际性网站",
+  "slogen": "",
+  "companyName": "XX有限公司",
+  "indexUrl": "./demo.html",
+  "navPackUp": "閉じる",
+  "navs": {
+    "index": "首页",
+    "company": "关于我们",
+    "culture": "企业文化",
+    "mall": "商城",
+    "forum": "论坛",
+    "news": "新闻",
+    "contactus": "联系我们"
+  },
+  "mall": {
+    "tmall": {
+      "name": "演示1",
+      "url": "#"
+    },
+    "jd": {
+      "name": "演示2",
+      "url": "#"
+    }
+  },
+  "navsUrl": {
+    "index": "#",
+    "company": "#",
+    "culture": "#",
+    "news": "#",
+    "forum": "#",
+    "contactus": "#"
+  },
+  "loading": "即将推出...",
+  "more": "更多 &gt;&gt;",
+  "Copyright": "京ICP备xxxxxxx号",
+  "demo": "演示"
+}

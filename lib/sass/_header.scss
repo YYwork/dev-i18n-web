@@ -1,0 +1,68 @@
+$slogen-color: #bbb;
+$slogen-height: 32px;
+$lang-color: #666;
+$header-font-size: 14px;
+header {
+  background-color: #fff;
+  padding: 7px 0px 8px;
+  @include yy-middle($main-width);
+  @include clearfix;
+  font-size: $header-font-size;
+  .divider {
+    display: none;
+    @include breakpoint($high-tide) {
+      display: inline;
+    }
+  }
+}
+.header-left {
+  float: left;
+  .logo {
+    padding-left: 16px;
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #DDD;
+    @include breakpoint($high-tide) {
+      float: left;
+      padding-left: 0;
+    }
+  }
+  .slogen {
+    font-size: 12px;
+    line-height: $slogen-height / 2;
+    display: none;
+    @include breakpoint($high-tide) {
+      float: left;
+      font-size: 16px;
+      line-height: $slogen-height;
+      display: initial;
+    }
+    color: $slogen-color;
+    margin-left: 8px;
+  }
+}
+
+.header-right {
+  float: right;
+  .lang {
+    line-height: 32px;
+    @include breakpoint($high-tide) {
+      line-height: initial;
+    }
+    a {
+      color: $lang-color;
+      line-height: $slogen-height;
+      display: none;
+      @include breakpoint($high-tide) {
+        display: inline;
+      }
+    }
+  }
+  .lang-zh .lang-zh-a {
+    display: inline;
+  }
+  .lang-en .lang-en-a {
+    display: inline;
+  }
+}

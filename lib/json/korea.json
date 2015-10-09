@@ -1,0 +1,53 @@
+{
+  "lang": "ko",
+  "langName": {
+    "en": "English",
+    "zh": "简体中文",
+    "jp": "日本語",
+    "ko": "한국어"
+  },
+  "langUrl": {
+    "zh": "../zh-cn/index.html",
+    "en": "../en-us/index.html",
+    "jp": "../jp/index.html",
+    "ko": "../korea/index.html"
+  },
+  "keywords": "사용 swig 국제 웹사이트 개발",
+  "description": "사용 swig 국제 웹사이트 개발",
+  "title": "사용 swig 국제 웹사이트 개발",
+  "slogen": "",
+  "companyName": "XX 주식회사",
+  "indexUrl": "./demo.html",
+  "navPackUp": "닫기",
+  "navs": {
+    "index": "집",
+    "company": "회사소개",
+    "culture": "문화",
+    "mall": "몰",
+    "news": "뉴스",
+    "forum": "포럼",
+    "contactus": "연락처"
+  },
+  "mall": {
+    "tmall": {
+      "name": "데모1",
+      "url": "#"
+    },
+    "jd": {
+      "name": "데모2",
+      "url": "#"
+    }
+  },
+  "navsUrl": {
+    "index": "#",
+    "company": "#",
+    "culture": "#",
+    "news": "#",
+    "forum": "#",
+    "contactus": "#"
+  },
+  "loading": "곧...",
+  "more": "더 &gt;&gt;",
+  "Copyright": "京ICP备xxxxxxx号",
+  "demo": "데모"
+}
