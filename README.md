@@ -27,13 +27,13 @@ Korean 한국어
 
 `lib/json/*.json`  are for tinytext.
 
-1. make JSON File
++ make JSON File
 
 ```
 mkdir lib/json/zh-tw.json
 ```
 
-2. add `"tw": "繁體中文"` to `langName` and  `"tw": "../zh-t/index.html"` to `langUrl` in each language JSON file
++ add `"tw": "繁體中文"` to `langName` and  `"tw": "../zh-t/index.html"` to `langUrl` in each language JSON file
 
 ```
   "langName": {
@@ -52,11 +52,11 @@ mkdir lib/json/zh-tw.json
   },
 ```
 
-3. Translate JSON data into traditional Stadium Chinese(繁體中文)
++ Translate JSON data into traditional Stadium Chinese(繁體中文)
 
-4. Translate `lib/html/**/*.tpl` to `lib/html/zh-t/*.tpl`
++ Translate `lib/html/**/*.tpl` to `lib/html/zh-t/*.tpl`
 
-5. `gulpfile.js`
++ `gulpfile.js`
 
 ```
 var output = {
@@ -76,11 +76,11 @@ gulp.task('build', [
 ]);
 ```
 
-6. `_header.tpl` 
++ `_header.tpl` 
 
 ```
   <span class="divider">|</span>
   <a class="lang-ko-a" href="{{langUrl.tw}}">{{langName.tw}}</a>
 ```
 
-7. END (you can change for your website)
++ END (you can change for your website)
