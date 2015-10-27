@@ -9,7 +9,16 @@ Using swig to develop international website
 安装 node npm
 安装 ruby
 ```
+```
+gem install ***
+```
 
+```
+npm install -g gulp
+
+npm install
+
+```
 
 ## DEMO
 
