@@ -3,6 +3,14 @@ Using swig to develop international website
 
 [Multi-language translation](http://www.nicetranslator.com/)
 
+## 环境
+
+```
+安装 node npm
+安装 ruby
+```
+
+
 ## DEMO
 
 Chinese 简体中文

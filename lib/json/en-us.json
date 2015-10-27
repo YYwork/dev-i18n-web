@@ -1,61 +1,61 @@
 {
-  "lang": "en",
-  "langName": {
-    "en": "English",
-    "zh": "简体中文",
-    "jp": "日本語",
-    "ko": "한국어",
-    "tw": "繁體中文"
-  },
-  "langUrl": {
-    "zh": "../zh-cn/index.html",
-    "en": "../en-us/index.html",
-    "jp": "../jp/index.html",
-    "ko": "../korea/index.html",
-    "tw": "../zh-tw/index.html"
-  },
-  "keywords": "Use swig template developing international website",
-  "description": "Use swig template developing international website",
-  "title": "Use swig developing international website",
-  "slogen": "",
-  "companyName": "XX, Ltd",
-  "indexUrl": "./demo.html",
-  "navPackUp": "Close",
-  "langUrl": {
-    "zh": "../zh-cn/index.html",
-    "en": "../en-us/index.html",
-    "jp": "../jp/index.html",
-    "ko": "../korea/index.html"
-  },
-  "navs": {
-    "index": "Home",
-    "company": "About Us",
-    "culture": "Culture",
-    "mall": "Mall",
-    "news": "News",
-    "forum": "Forums",
-    "contactus": "Contact Us"
-  },
-  "mall": {
-    "tmall": {
-      "name": "Demo1",
-      "url": "#"
+    "lang": "en",
+    "langName": {
+        "en": "English",
+        "zh": "简体中文",
+        "jp": "日本語",
+        "ko": "한국어",
+        "tw": "繁體中文"
     },
-    "jd": {
-      "name": "Demo2",
-      "url": "#"
-    }
-  },
-  "navsUrl": {
-    "index": "#",
-    "company": "#",
-    "culture": "#",
-    "news": "#",
-    "forum": "#",
-    "contactus": "#"
-  },
-  "loading": "Coming soon ...",
-  "more": "MORE &gt;&gt;",
-  "Copyright": "京ICP备xxxxxxx号",
-  "demo": "DEMO"
+    "langUrl": {
+        "zh": "../zh-cn/index.html",
+        "en": "../en-us/index.html",
+        "jp": "../jp/index.html",
+        "ko": "../korea/index.html",
+        "tw": "../zh-tw/index.html"
+    },
+    "keywords": "Use swig template developing international website",
+    "description": "Use swig template developing international website",
+    "title": "Use swig developing international website",
+    "slogen": "",
+    "companyName": "XX, Ltd",
+    "indexUrl": "./demo.html",
+    "navPackUp": "Close",
+    "langUrl": {
+        "zh": "../zh-cn/index.html",
+        "en": "../en-us/index.html",
+        "jp": "../jp/index.html",
+        "ko": "../korea/index.html"
+    },
+    "navs": {
+        "index": "Home",
+        "company": "About Us",
+        "culture": "Culture",
+        "mall": "Mall",
+        "news": "News",
+        "forum": "Forums",
+        "contactus": "Contact Us"
+    },
+    "mall": {
+        "tmall": {
+            "name": "Demo1",
+            "url": "#"
+        },
+        "jd": {
+            "name": "Demo2",
+            "url": "#"
+        }
+    },
+    "navsUrl": {
+        "index": "#",
+        "company": "#",
+        "culture": "#",
+        "news": "#",
+        "forum": "#",
+        "contactus": "#"
+    },
+    "loading": "Coming soon ...",
+    "more": "MORE &gt;&gt;",
+    "Copyright": "京ICP备xxxxxxx号",
+    "demo": "DEMO"
 }
